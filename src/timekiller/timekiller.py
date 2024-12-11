@@ -74,8 +74,8 @@ def main():
         parser.add_argument(
             "command",
             nargs="?",
-            default="telepostkeeper",
-            help="Command to run in the subprocess (default: 'telepostkeeper')."
+            default="ping google.com",
+            help="Command to run in the subprocess (default: 'ping google.com')."
         )
         parser.add_argument(
             "--timeout",

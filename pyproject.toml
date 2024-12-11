@@ -1,7 +1,7 @@
 
 [tool.poetry]
 name = "process-time-killer"
-version = "0.1.1"
+version = "0.1.2"
 description = "process-time-killer"
 authors = ["Your Name <your.email@example.com>"]
 readme = "README.md"
@@ -14,7 +14,7 @@ packages = [
 python = ">=3.9"
 
 [tool.poetry.scripts]
-timekiller = "timekiller:main"
+timekiller = "timekiller.timekiller:main"
 
 
 [build-system]

@@ -1,7 +1,8 @@
 #!/bin/bash
 
-pip install -e . --no-deps
+poetry build
+poetry install
 
-timekiller "ping -c 4 google.com" --timeout 13
+timekiller "ping google.com" --timeout 13
 
 
