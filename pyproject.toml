@@ -1,9 +1,9 @@
 
 [tool.poetry]
 name = "process-time-killer"
-version = "0.1.13"
-description = "process-time-killer"
-authors = ["Your Name <your.email@example.com>"]
+version = "0.1.14"
+description = "⏰ process-time-killer"
+authors = ["Andrew A Levin <your.email@example.com>"]
 readme = "README.md"
 packages = [
     { include = "timekiller", from = "src" }
