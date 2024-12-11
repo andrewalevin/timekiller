@@ -70,7 +70,7 @@ def main():
     """
     try:
         # Парсер аргументов командной строки
-        parser = argparse.ArgumentParser(description="Run and kill a subprocess after a specified time.")
+        parser = argparse.ArgumentParser(description="⏰ Run and kill a subprocess after a specified time.")
         parser.add_argument(
             "command",
             nargs="?",
