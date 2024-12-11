@@ -1,7 +1,7 @@
 
 [tool.poetry]
 name = "process-time-killer"
-version = "0.1.12"
+version = "0.1.13"
 description = "process-time-killer"
 authors = ["Your Name <your.email@example.com>"]
 readme = "README.md"
