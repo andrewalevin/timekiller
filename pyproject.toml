@@ -1,10 +1,14 @@
 
 [tool.poetry]
 name = "process-time-killer"
-version = "0.1.4"
+version = "0.1.5"
 description = "process-time-killer"
 authors = ["Your Name <your.email@example.com>"]
 readme = "README.md"
+packages = [
+    { include = "src"}
+]
+
 
 [tool.poetry.dependencies]
 python = ">=3.9"
